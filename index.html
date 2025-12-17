@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MR Imports - Sua loja de eletrônicos e gadgets. Smartphones, fones, acessórios e muito mais com os melhores preços.">
+  <title>MR Imports | Seu upgrade começa aqui</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">MR</span>
+        <span>Imports</span>
+      </a>
+      
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="pages/loja.html">Loja</a></li>
+          <li><a href="pages/ofertas.html">Ofertas</a></li>
+          <li><a href="pages/favoritos.html">Favoritos</a></li>
+          <li><a href="pages/comprar.html">Comparar</a></li>
+          <li><a href="pages/suporte.html">Suporte</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="pages/carrinho.html" class="btn btn-ghost btn-icon cart-btn" title="Carrinho">
+          🛒
+          <span class="cart-count" style="display: none;">0</span>
+        </a>
+        <button class="menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="pages/loja.html">Loja</a></li>
+      <li><a href="pages/ofertas.html">Ofertas</a></li>
+      <li><a href="pages/favoritos.html">Favoritos</a></li>
+      <li><a href="pages/comprar.html">Comparar</a></li>
+      <li><a href="pages/suporte.html">Suporte</a></li>
+      <li><a href="pages/carrinho.html">Carrinho</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1920&q=80" alt="Eletrônicos">
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">✨ Novidades toda semana</span>
+        <h1><span class="text-gradient">MR Imports</span><br>Seu upgrade começa aqui.</h1>
+        <p>Descubra os melhores eletrônicos e gadgets com preços incríveis. Smartphones, fones, smartwatches e muito mais com entrega para todo o Brasil.</p>
+        <div class="hero-btns">
+          <a href="pages/loja.html" class="btn btn-primary btn-lg">🛒 Comprar agora</a>
+          <a href="pages/ofertas.html" class="btn btn-outline btn-lg">🔥 Ver ofertas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Shipping Bar -->
+  <section class="section" style="padding-top: var(--space-lg); padding-bottom: 0;">
+    <div class="container">
+      <div class="shipping-bar fade-in">
+        <p class="shipping-text">Faltam <strong>R$ 299,00</strong> para frete grátis!</p>
+        <div class="shipping-progress">
+          <div class="shipping-progress-bar" style="width: 0%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Categories Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Categorias</h2>
+        <p>Navegue por nossas categorias e encontre o que você precisa</p>
+      </div>
+      <div class="grid grid-6 categories-grid">
+        <!-- Renderizado via JS -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- Featured Products -->
+  <section class="section" style="background: var(--gradient-card);">
+    <div class="container">
+      <div class="section-title">
+        <h2>⭐ Produtos em Destaque</h2>
+        <p>Os mais vendidos e melhor avaliados da loja</p>
+      </div>
+      <div class="grid grid-4 featured-products-grid">
+        <!-- Renderizado via JS -->
+      </div>
+      <div class="text-center" style="margin-top: var(--space-2xl);">
+        <a href="pages/loja.html" class="btn btn-secondary">Ver todos os produtos →</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Por que comprar na MR Imports?</h2>
+        <p>Oferecemos a melhor experiência de compra</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card benefit-card fade-in">
+          <div class="benefit-icon">🚚</div>
+          <h3>Envio Rápido</h3>
+          <p>Entrega para todo o Brasil. Frete grátis acima de R$ 299 para as principais capitais.</p>
+        </div>
+        <div class="card benefit-card fade-in">
+          <div class="benefit-icon">🔒</div>
+          <h3>Pagamento Seguro</h3>
+          <p>Pix, cartão ou boleto. Ambiente 100% seguro e criptografado para suas compras.</p>
+        </div>
+        <div class="card benefit-card fade-in">
+          <div class="benefit-icon">🔄</div>
+          <h3>Troca Fácil</h3>
+          <p>7 dias para troca ou devolução sem complicação. Sua satisfação é nossa prioridade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Newsletter -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter fade-in">
+        <h3>📧 Receba ofertas exclusivas</h3>
+        <p>Cadastre-se e ganhe 10% OFF na primeira compra!</p>
+        <form class="newsletter-form">
+          <input type="email" class="form-input" placeholder="Seu melhor e-mail" required>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">MR</span>
+            <span>Imports</span>
+          </a>
+          <p>Seu upgrade começa aqui. Os melhores eletrônicos e gadgets com preços incríveis.</p>
+          <div class="footer-social">
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="Facebook">f</a>
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="YouTube">▶️</a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="pages/loja.html">Loja</a></li>
+            <li><a href="pages/ofertas.html">Ofertas</a></li>
+            <li><a href="pages/favoritos.html">Favoritos</a></li>
+            <li><a href="pages/comprar.html">Comparar</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Institucional</h4>
+          <ul>
+            <li><a href="pages/suporte.html">Sobre nós</a></li>
+            <li><a href="pages/entregaEdevolucao.html">Entrega e Devoluções</a></li>
+            <li><a href="pages/privacidade.html">Privacidade</a></li>
+            <li><a href="pages/termos.html">Termos de Uso</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Atendimento</h4>
+          <ul>
+            <li><a href="pages/suporte.html">FAQ</a></li>
+            <li><a href="pages/suporte.html">Contato</a></li>
+            <li><a href="#">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>MR Imports © 2025 — Todos os direitos reservados.</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- WhatsApp Button -->
+  <a href="#" class="whatsapp-btn" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>Fale conosco</span>
+  </a>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
